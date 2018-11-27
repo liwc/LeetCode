@@ -1,4 +1,4 @@
-package main
+package q001
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ func twoSum(nums []int, target int) []int {
 
 	numsMap := make(map[int]int, 0)
 	for pos, num := range nums {
-		if idx, ok := numsMap[target - num]; ok {
+		if idx, ok := numsMap[target-num]; ok {
 			return []int{idx, pos}
 		}
 
@@ -33,8 +33,10 @@ func twoSum(nums []int, target int) []int {
 	return nums
 }
 
-func main() {
+// Test ...
+func Test() {
+	fmt.Println("1_twoSum begin")
 	nums := []int{11, 7, 2, 15}
-	fmt.Printf("\nindices: %v\n", twoSum(nums, 9))
-	fmt.Println()
+	fmt.Printf("indices: %v\n", twoSum(nums, 9))
+	fmt.Println("1_twoSum end")
 }
