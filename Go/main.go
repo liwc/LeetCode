@@ -6,6 +6,7 @@ import (
 	"LeetCode/Go/2_addTwoNumbers"
 	"LeetCode/Go/3_longestSubstring"
 	"LeetCode/Go/5_longestPalindrome"
+	"LeetCode/Go/6_zigZagConversion"
 )
 
 func main() {
@@ -13,4 +14,5 @@ func main() {
 	q002.Test()
 	q003.Test()
 	q005.Test()
+	q006.Test()
 }
