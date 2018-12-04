@@ -9,6 +9,7 @@ import (
 	"LeetCode/Go/6_zigZagConversion"
 	"LeetCode/Go/7_reverseInteger"
 	"LeetCode/Go/8_myAtoi"
+	"LeetCode/Go/9_isPalindrome"
 )
 
 func main() {
@@ -19,4 +20,5 @@ func main() {
 	q006.Test()
 	q007.Test()
 	q008.Test()
+	q009.Test()
 }
