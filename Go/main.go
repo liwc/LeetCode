@@ -10,6 +10,7 @@ import (
 	"LeetCode/Go/7_reverseInteger"
 	"LeetCode/Go/8_myAtoi"
 	"LeetCode/Go/9_isPalindrome"
+	"LeetCode/Go/10_isRegularMatch"
 )
 
 func main() {
@@ -21,4 +22,5 @@ func main() {
 	q007.Test()
 	q008.Test()
 	q009.Test()
+	q010.Test()
 }
