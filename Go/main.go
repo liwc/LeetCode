@@ -11,6 +11,7 @@ import (
 	"LeetCode/Go/8_myAtoi"
 	"LeetCode/Go/9_isPalindrome"
 	"LeetCode/Go/10_isRegularMatch"
+	"LeetCode/Go/11_maxArea"
 )
 
 func main() {
@@ -23,4 +24,5 @@ func main() {
 	q008.Test()
 	q009.Test()
 	q010.Test()
+	q011.Test()
 }
