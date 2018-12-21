@@ -14,6 +14,7 @@ import (
 	"LeetCode/Go/11_maxArea"
 	"LeetCode/Go/12_intToRoman"
 	"LeetCode/Go/13_romanToInt"
+	"LeetCode/Go/14_longestCommonPrefix"
 )
 
 func main() {
@@ -29,4 +30,5 @@ func main() {
 	q011.Test()
 	q012.Test()
 	q013.Test()
+	q014.Test()
 }
