@@ -15,6 +15,7 @@ import (
 	"LeetCode/Go/12_intToRoman"
 	"LeetCode/Go/13_romanToInt"
 	"LeetCode/Go/14_longestCommonPrefix"
+	"LeetCode/Go/15_threeSum"
 )
 
 func main() {
@@ -31,4 +32,5 @@ func main() {
 	q012.Test()
 	q013.Test()
 	q014.Test()
+	q015.Test()
 }
